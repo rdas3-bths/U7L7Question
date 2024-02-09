@@ -17,14 +17,14 @@ public class Main {
         }
 
         String[] data = s.nextLine().split(",");
-        ArrayList<Integer> intcodes = new ArrayList<Integer>();
+        ArrayList<Integer> operatorCodes = new ArrayList<Integer>();
         for (int i = 0; i < data.length; i++) {
-            intcodes.add(Integer.parseInt(data[i]));
+            operatorCodes.add(Integer.parseInt(data[i]));
         }
         int index = 0;
-        while (intcodes.get(index) != 99) {
+        while (operatorCodes.get(index) != 99) {
             // Implement the operation logic here
         }
-        System.out.println(intcodes);
+        System.out.println(operatorCodes);
     }
 }
